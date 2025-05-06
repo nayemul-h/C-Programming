@@ -1,0 +1,59 @@
+United International University (UIU)
+Dept. of Computer Science & Engineering (CSE)
+CSE 1112: Structure Programming Language Laboratory
+Section: K
+Assignment 1
+Question: 01 Marks: 10
+You are planning to develop a weather monitoring system that records daily temperatures (in °C) for 7 consecutive days across 5 different cities in Bangladesh. Your task is to develop a C program that processes this data. The program should calculate city-wise average temperatures, classify weather conditions (Hot, Moderate, Cold), count extreme weather alert days, and determine the highest and lowest temperatures recorded. Additionally, the program should compute day-wise average temperatures across all cities and report the hottest and coldest days based on those averages.
+Input: The program should first take temperature inputs and store them in a 2D array, where each row represents a city and each column represents a day. You must ensure that each temperature value entered lies within the valid range of 5°C to 60°C. If an invalid temperature is entered, the program should display a warning and prompt the user to re-enter the value.
+Output: For each city, the program should calculate the average temperature of the week and classify the weather condition as "Hot", "Moderate", or "Cold". A city is considered "Hot" if the average temperature is 30°C or above, "Moderate" if it is between 20°C and 29.9°C, and "Cold" if it is below 20°C. Additionally, the program should count how many days in the week had extreme weather conditions for each city: specifically, days where the temperature exceeded 40°C (counted as Heat Alert days) and days where it fell below 10°C (counted as Cold Alert days). This summary should be displayed city-wise, including the average temperature, weather type, and alert counts.
+After processing all cities, the program should identify and display the city that recorded the highest single-day temperature and the city that recorded the lowest single-day temperature.
+Finally, the program should compute and display the average temperature for each of the 7 days across all cities, and determine which day had the highest and lowest average temperature.
+Input
+Output
+38 42 41 39 43 44 45
+32 33 34 35 36 37 35
+8 9 7 10 6 5 8
+24 25 23 22 24 23 24
+16 18 19 17 20 21 18
+City 1:
+Average Temp: 41.7°C
+Weather: Hot
+Heat Alert Days: 5
+Cold Alert Days: 0
+City 2:
+Average Temp: 34.6°C
+Weather: Hot
+Heat Alert Days: 0
+Cold Alert Days: 0
+City 3:
+Average Temp: 7.6°C
+Weather: Cold
+Heat Alert Days: 0
+Cold Alert Days: 6
+City 4:
+Average Temp: 23.6°C
+Weather: Moderate
+Heat Alert Days: 0
+Cold Alert Days: 0
+City 5:
+Average Temp: 18.4°C
+Weather: Cold
+Heat Alert Days: 0
+Cold Alert Days: 0
+Highest Temperature: 45°C in City 1
+Lowest Temperature: 5°C in City 3
+Average Temperature per Day:
+Day 1: 21.6°C
+Day 2: 21.4°C
+Day 3: 22.4°C
+Day 4: 22.0°C
+Day 5: 21.8°C
+Day 6: 21.8°C
+Day 7: 22.0°C
+Hottest Day: Day 1 (21.6°C)
+Coldest Day: Day 3 (22.4°C)
+Instructions
+● Name the code files as Q1, and place both .c files inside a folder named <YourID>
+● Zip the folder and submit it.
+● If you are found guilty of copying from ChatGPT or your friend(s), you will receive a -100% mark on the assignment as a penalty.
